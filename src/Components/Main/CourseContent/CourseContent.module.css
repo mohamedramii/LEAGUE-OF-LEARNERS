@@ -1,0 +1,87 @@
+.courseContent p{
+  color: #e7c457;
+  font-size: 2.5rem;
+}
+
+.boxsOfLessons{
+    
+}
+
+
+.boxOflesson{
+    background-color: #a3cfd7;
+    height:4rem ;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.boxContainer{
+ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.boxOflesson .numLess p{
+
+    color: black;
+    margin-left: 3rem;
+}
+
+
+.boxOflesson .titleLess{
+        min-width: 50%;
+        display: flex;
+        justify-content: center;
+}
+
+ .boxOflesson .titleLess p{
+
+    color: black;
+
+}
+
+ .boxOflesson .iconsLesson{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+ }
+
+  .boxOflesson .iconsLesson img {
+  
+    cursor: pointer;
+    margin-right: 1.5rem;
+    padding-top:0.5rem ;
+    padding-bottom:0.5rem ;
+
+  }
+
+
+
+
+
+
+
+
+
+/* .boxOflesson .iconsLesson {
+    border: 1px solid red;
+    max-height: 5%;
+}
+
+
+
+.boxOflesson .iconsLesson img{
+    height: 2%;
+} */
+
+
+
+
+

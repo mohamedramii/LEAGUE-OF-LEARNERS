@@ -1,0 +1,60 @@
+@media (min-width: 1440px) {
+  .screen {
+    display: flex;
+  }
+}
+
+.main {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  min-height: 50%;
+}
+
+.helloUX {
+  color: #e7c457;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.BoxCoursename {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.courseName {
+  color: #e7c457;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  max-width: 70%;
+
+  border: 1px solid #e7c457;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.courseName p {
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem;
+}
+
+.main {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  min-height: 50%;
+}
+
+@media (min-width: 1440px) {
+  .main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    min-height: 50%;
+    width: 50%;
+  }
+}

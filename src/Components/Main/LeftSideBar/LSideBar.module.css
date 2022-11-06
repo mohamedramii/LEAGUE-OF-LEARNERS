@@ -1,0 +1,94 @@
+
+
+@media (max-width: 810px) {
+  .container {
+      display: none;
+    }
+}
+
+@media (max-width: 375px) {
+  .container {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1440px){
+.container {
+    width: 20%;
+  }
+
+  .container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .container .logo img {
+    width: 90%;
+  }
+
+  .yourCourses .titleSec {
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .container .urCourse {
+    margin-top: 2rem;
+    display: flex;
+    width: 80%;
+    background-color: #a3cfd7;
+    border-radius: 0 4rem 4rem 0;
+    min-height: 4.5rem;
+    align-items: center;
+    padding-left: 2rem;
+    cursor: pointer;
+  }
+
+  .container .urCourse p {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+
+  .container .urCourse img {
+    width: 25%;
+  }
+
+  .contactUsContainer {
+    height: 30%;
+    position: relative;
+  }
+
+  .contactUs {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .contactUs p {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contactUsIcon {
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contactUsContainer img {
+    width: 15%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+}
+

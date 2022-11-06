@@ -1,0 +1,48 @@
+.navbar {
+  height: 8rem;
+  /* border: 1px solid red; */
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid #E7C457;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+
+
+.logo {
+  position: absolute;
+  left: 1rem;
+top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo img {
+  height: 7rem;
+}
+
+.mobNav{
+/* border: 1px solid greenyellow; */
+display: flex;
+position: absolute;
+right: 1.5rem;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.mobIcone{
+    width: 4rem;
+    height: 4rem;
+    color: #E7C457;
+    cursor: pointer;
+}
+
+@media (min-width: 1440px) {
+  .navbar {
+   display: none;
+    }
+}
+
+
+
+

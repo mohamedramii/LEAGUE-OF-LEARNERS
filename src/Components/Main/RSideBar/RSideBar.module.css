@@ -1,0 +1,109 @@
+@media (min-width: 1440px) {
+.container {
+        width: 30%;
+    }
+
+    .profile {
+        height: 30%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .profile .profilePic {
+        display: flex;
+        width: 35%;
+        padding-top: 2rem;
+    }
+
+    .profile .profilePic img {
+        width: 100%;
+    }
+
+    .profile .profileName {
+        font-size: 3rem;
+        color: #E7C457;
+    }
+
+    .profile .profileNoti {
+        display: flex;
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .profile .profileNoti img {
+        height: 80%;
+        cursor: pointer;
+
+
+    }
+
+    .testContainer {
+        display: flex;
+        justify-content: center;
+        height: 30%;
+        align-items: center;
+    }
+
+    .testContainer .test {
+        width: 30%;
+        height: 25%;
+    }
+
+    .testContainer .test button {
+        background-color: #E7C457;
+        width: 100%;
+        height: 100%;
+        border: #E7C457;
+        font-size: 2.5rem;
+        font-family: 'Poppins', 'Helvetica Neue';
+        letter-spacing: 0.5rem;
+        border-radius: 2rem;
+
+
+
+    }
+
+    .courseProgress {
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courseProgress p {
+        color: #E7C457;
+        font-size: 3rem;
+    }
+
+    .courseProgress .progressImg {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .courseProgress .progressImg img {
+        width: 50%;
+    }
+}
+
+
+
+
+@media (max-width: 810px) {
+    .container {
+        display: none;
+    }    
+}    
+
+@media (max-width: 375px) {
+    .container {
+        display: none;
+    }    
+}    
+
+
+
