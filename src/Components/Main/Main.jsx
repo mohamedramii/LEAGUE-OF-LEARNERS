@@ -1,38 +1,35 @@
-import React from 'react'
+import React from "react";
+import Login from "../Login/Login";
 import styles from "../Main/Main.module.css";
-import CourseContent from './CourseContent/CourseContent';
-import LSideBar from './LeftSideBar/LSideBar';
-import RSideBar from './RSideBar/RSideBar';
-import Statistics from './Statistics/Statistics';
+import CourseContent from "./CourseContent/CourseContent";
+import LSideBar from "./LeftSideBar/LSideBar";
+import RSideBar from "./RSideBar/RSideBar";
+import Statistics from "./Statistics/Statistics";
 
 const Main = () => {
   return (
+    <div className={styles.screen}>
+    <Login/>
+      {/* <LSideBar  />
 
-   
-<div className={styles.screen}>
-
-    <LSideBar/>
-
-    <div className={styles.main}>
-   
-      <div className={styles.helloUX}>
-        <p>WELCOME BACK , RAMY !</p>
-      </div>
-
-      <div className={styles.BoxCoursename}>
-        <div className={styles.courseName}>
-          <p>React.js Course</p>
+      <div className={styles.main}>
+        <div className={styles.helloUX}>
+          <p>WELCOME BACK , RAMY !</p>
         </div>
+
+        <div className={styles.BoxCoursename}>
+          <div className={styles.courseName}>
+            <p>React.js Course</p>
+          </div>
+        </div>
+
+        <Statistics />
+        <CourseContent />
       </div>
 
-      <Statistics />
-      <CourseContent/>
+      <RSideBar /> */}
     </div>
-
-<RSideBar/>
-</div>
-
   );
-}
+};
 
-export default Main
+export default Main;

@@ -1,6 +1,7 @@
 @media (min-width: 1440px) {
 .container {
         width: 30%;
+        height: 100vh;
     }
 
     .profile {
