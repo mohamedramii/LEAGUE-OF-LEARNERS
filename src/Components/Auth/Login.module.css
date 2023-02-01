@@ -1,0 +1,139 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm{
+    width: 35rem;
+    background-color: #122542;
+    min-height: 30rem;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:3rem ;
+    border: 1px solid #E7C457;
+}
+.formContainer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.formContainer h1{
+        color: #E7C457;
+        position: relative;
+        bottom: 2rem;
+        font-size: 3.5rem;
+}
+.formContainer input:first-of-type
+{
+width: 25rem;
+    height: 4.5rem;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-radius: 2rem;
+    background-image: url('.././../assets/image/email.png') ;
+    background-size: 2rem;
+    background-position: 0.6rem ;
+    background-repeat: no-repeat;
+    border: none;
+ 
+}
+
+.formContainer input:first-of-type:focus{
+    outline: 3px solid #E7C457;
+        border: none;
+}
+.formContainer input:nth-child(3) {
+width: 25rem;
+    height: 4.5rem;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-radius: 2rem;
+    background-image: url('.././../assets/image/padlock.png');
+    background-size: 2rem;
+    background-position: 0.6rem;
+    background-repeat: no-repeat;
+        border: none;
+}
+.formContainer input:nth-child(3):focus {
+    outline: 3px solid #E7C457;
+    border: none;
+}
+
+.formContainer .loginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    gap: 1rem;
+    margin-top: 2rem;
+
+}
+
+.formContainer .loginBtn button{
+    
+    width: 50%;
+    background-color: #E7C457;
+    border: none;
+    font-size: 2rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    outline: none;
+    cursor: pointer;
+   
+}
+.formContainer .loginForgetPsw{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2.8rem;
+}
+.formContainer .loginForgetPsw a{
+    text-decoration: none;
+    color: #E7C457;
+    font-size:1.2rem ;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.formContainer .loginSocial  {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.formContainer .loginSocial p{
+    color: #E7C457;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.formContainer .loginSocialIcon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formContainer .loginSocialIcon img{
+    width: 3rem;
+    cursor: pointer;
+}
+
+
+.signupLink{
+    color: #E7C457;
+    position: relative;
+    top: 2.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+font-weight: 600;
+}
+
+
+
+

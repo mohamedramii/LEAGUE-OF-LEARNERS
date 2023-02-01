@@ -65,7 +65,7 @@
 
 
     }
-
+    
     .courseProgress {
         height: 25%;
         display: flex;
@@ -89,6 +89,27 @@
     .courseProgress .progressImg img {
         width: 50%;
     }
+  .logOut {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   height: 30%;
+
+}
+.logOut button{
+    background-color: #E7C457;
+        min-width: 30%;
+        height: 100%;
+     
+        border: #E7C457;
+        font-size: 2.5rem;
+        font-family: 'Poppins', 'Helvetica Neue';
+        letter-spacing: 0.5rem;
+        border-radius: 2rem;
+}
+
+
+
 }
 
 
